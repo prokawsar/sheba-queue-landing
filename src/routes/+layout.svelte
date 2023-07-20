@@ -1,5 +1,7 @@
 <script>
-	import '../app.css';
+  import Navbar from "$lib/elements/navbar.svelte";
+  import "../app.css";
 </script>
 
+<Navbar />
 <slot />
