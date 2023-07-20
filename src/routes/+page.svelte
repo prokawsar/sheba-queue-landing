@@ -1,11 +1,22 @@
+<script>
+  import Hero from "$lib/elements/hero.svelte";
+  import About from "$lib/sections/about.svelte";
+  import Contact from "$lib/sections/contact.svelte";
+  import Projects from "$lib/sections/projects.svelte";
+  import Reveiw from "$lib/sections/reveiw.svelte";
+  import Team from "$lib/sections/team.svelte";
+  import Techs from "$lib/sections/techs.svelte";
+</script>
+
 <div
-  class="w-screen flex flex-col gap-y-10 items-center mx-auto pt-10 h-screen bg-gray-100"
+  class="w-screen flex flex-col gap-y-10 items-center mx-auto pt-10 bg-gray-100"
 >
-  <!-- <h1 class="uppercase hover:scale-110 text-yellow-500 p-5 rounded-sm text-4xl">
-    sheba queue inc.
-  </h1> -->
-  <p class="text-2xl uppercase text-teal-700">Landing page developing...</p>
-  <img class="hover:scale-110" src="/full.png" alt="" />
+  <Hero />
+  <About />
+  <Techs />
+  <Projects />
+  <Reveiw />
+  <Team />
 </div>
 
 <svelte:head>
