@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="bg-slate-800 pt-10 w-full">
+<div id="projects" class="bg-slate-700 pt-10 w-full">
   <div class="container mx-auto flex flex-row text-white">
     <div class="flex-1">
       <h1 class="uppercase text-8xl">projects</h1>

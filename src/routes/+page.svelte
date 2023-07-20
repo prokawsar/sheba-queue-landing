@@ -15,6 +15,7 @@
   <Projects />
   <Reveiw />
   <Team />
+  <Contact />
 </div>
 
 <svelte:head>

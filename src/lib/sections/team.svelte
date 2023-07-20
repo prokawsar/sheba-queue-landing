@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="bg-gray-100 pt-10 w-full">
+<div id="team" class="bg-gray-100 pt-10 w-full">
   <div class="container mx-auto flex flex-row">
     <div class="flex-1">
       <h1 class="uppercase text-8xl">team</h1>
