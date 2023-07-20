@@ -1,7 +1,21 @@
+<script>
+  import Menu from '$lib/icons/menu.svelte';
+
+  let showMobileMenu = false;
+
+  const openMenu = () => {
+    showMobileMenu = !showMobileMenu;
+  };
+</script>
+
 <div class="bg-gray-100">
   <div
-    class="container mx-auto flex flex-col sm:flex-row w-full justify-between items-center"
+    class="container mx-auto flex flex-row w-full sm:justify-between items-center"
   >
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
+    <div class="sm:hidden mr-2" on:click={() => openMenu()} on:keydown>
+      <Menu />
+    </div>
     <div class="w-52">
       <img src="/images/logo.png" alt="logo" class="p-2" />
     </div>
@@ -17,5 +31,17 @@
     >
       Contact Us
     </button>
+
+    {#if showMobileMenu}
+      <div class="absolute left-0 w-full h-60 p-4 bg-gray-300 top-16">
+        <div class="flex flex-col gap-4">
+          <a class="" href="/">Home</a>
+          <a href="/#about">About</a>
+          <a href="/#team">Team</a>
+          <a href="/#our-tech">Our Technology</a>
+          <a href="/#contact">Contact</a>
+        </div>
+      </div>
+    {/if}
   </div>
 </div>
