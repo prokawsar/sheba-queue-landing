@@ -10,10 +10,10 @@
 
 <div class="w-screen flex flex-col items-center mx-auto">
   <Hero />
-  <About />
+  <!-- <About /> -->
   <Techs />
-  <Projects />
-  <Reveiw />
+  <!-- <Projects /> -->
+  <!-- <Reveiw /> -->
   <Team />
   <Contact />
 </div>
