@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="pt-24 pb-10 w-full">
+<div class="pt-24 pb-10 px-5 w-full">
   <div class="container mx-auto flex flex-col">
     <div
       class="bg-amber-500/10 flex-col py-2 px-4 rounded-md mb-6 aos-init aos-animate w-fit"

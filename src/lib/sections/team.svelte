@@ -9,7 +9,7 @@
       We possess an exceptionally skilled team <br /> diligently focused on maintaining
       the excellence of their deliverables.
     </p>
-    <div class="flex flex-row gap-20">
+    <div class="flex flex-col sm:flex-row gap-20">
       <Profile />
 
       <Profile />

@@ -38,7 +38,7 @@
     <h2 class="p-2 bg-violet-200 text-violet-800 rounded-3xl">
       Technology we expert in
     </h2>
-    <p class="text-3xl">Better performance, Better Management</p>
+    <p class="text-3xl text-center">Better performance, Better Management</p>
 
     <div class="flex flex-col sm:flex-row gap-2">
       {#each techs as tech}

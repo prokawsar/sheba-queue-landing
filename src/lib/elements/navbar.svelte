@@ -21,9 +21,9 @@
     </div>
     <div class="hidden sm:flex flex-row gap-4 sm:-ml-10">
       <a class="" href="/">Home</a>
-      <a href="/#about">About</a>
-      <a href="/#team">Team</a>
+      <!-- <a href="/#about">About</a> -->
       <a href="/#our-tech">Our Technology</a>
+      <a href="/#team">Team</a>
       <a href="/#contact">Contact</a>
     </div>
     <button
@@ -36,9 +36,9 @@
       <div class="absolute left-0 w-full h-60 p-4 bg-gray-300 top-16">
         <div class="flex flex-col gap-4">
           <a class="" href="/">Home</a>
-          <a href="/#about">About</a>
-          <a href="/#team">Team</a>
+          <!-- <a href="/#about">About</a> -->
           <a href="/#our-tech">Our Technology</a>
+          <a href="/#team">Team</a>
           <a href="/#contact">Contact</a>
         </div>
       </div>
