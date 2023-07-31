@@ -70,9 +70,7 @@
         <div>
           <p class="text-gray-500/80 text-sm">
             Crafted by
-            <a
-              href="/"
-              class="text-gray-800 hover:text-primary transition-all h-8"
+            <a href="/" class=" hover:text-primary transition-all h-8"
               >Sheba Queue</a
             >
           </p>
