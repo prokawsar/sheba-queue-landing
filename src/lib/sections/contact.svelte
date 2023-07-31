@@ -166,8 +166,8 @@
   </div>
 </div>
 
-<div class="grid md:grid-cols-3 gap-6">
-  <div class="flex mb-3">
+<div class="grid md:grid-cols-3 gap-6 mb-10">
+  <div class="flex">
     <span
       class="flex items-center justify-center w-12 h-12 bg-violet-300 rounded-lg relative me-4 shrink-0"
     >
@@ -200,7 +200,7 @@
     </div>
   </div>
 
-  <div class="flex mb-3">
+  <div class="flex">
     <span
       class="flex items-center justify-center w-12 h-12 bg-orange-500/20 rounded-lg relative me-4 shrink-0"
     >
@@ -233,7 +233,7 @@
     </div>
   </div>
 
-  <div class="flex mb-3">
+  <div class="flex">
     <span
       class="flex items-center justify-center w-12 h-12 bg-teal-500/20 rounded-lg relative me-4 shrink-0"
     >
