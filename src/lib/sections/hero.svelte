@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="bg-gray-100 pt-10 w-full">
+<div class="pt-24 w-full">
   <div class="container mx-auto flex flex-col sm:flex-row">
     <div class="flex-1">
       <h1 class="uppercase text-8xl">vision into reality</h1>

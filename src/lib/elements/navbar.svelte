@@ -8,7 +8,7 @@
   };
 </script>
 
-<div class="bg-gray-100">
+<div class="bg-gray-100 fixed top-0 w-full z-20">
   <div
     class="container mx-auto flex flex-row w-full sm:justify-between items-center"
   >
