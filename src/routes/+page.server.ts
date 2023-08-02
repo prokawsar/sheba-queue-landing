@@ -1,3 +1,4 @@
+import { redirect } from '@sveltejs/kit';
 import type { Actions } from './$types';
 
 export const actions: Actions = {
@@ -15,13 +16,13 @@ export const actions: Actions = {
         message,
       }),
     });
-    console.log(name, email, message);
-    if (result.ok) {
-      console.log(result);
-    }
 
-    return {
-      success: true,
-    };
+    if (result.status == 200) {
+      throw redirect(302, '/thank-you');
+    } else {
+      return {
+        error: true,
+      };
+    }
   },
 };
