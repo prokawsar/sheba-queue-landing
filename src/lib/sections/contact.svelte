@@ -174,8 +174,8 @@
   </div>
 </div>
 
-<div class="grid md:grid-cols-3 gap-6 mb-10">
-  <div class="flex">
+<div class="grid md:grid-cols-2 gap-6 mb-10">
+  <!-- <div class="flex">
     <span
       class="flex items-center justify-center w-12 h-12 bg-amber-500/10 rounded-lg relative me-4 shrink-0"
     >
@@ -206,7 +206,7 @@
       <h5 class="text-base text-gray-700">Email</h5>
       <a href="#" class="text-gray-500 my-1">youremail@gmail.com</a>
     </div>
-  </div>
+  </div> -->
 
   <div class="flex">
     <span
@@ -237,7 +237,7 @@
     </span>
     <div class="grow">
       <h5 class="text-base text-gray-700">Phone</h5>
-      <a href="#" class="text-gray-500 my-1">+00 123 456 7890</a>
+      <a href="#" class="text-gray-500 my-1">+880 1630343021</a>
     </div>
   </div>
 

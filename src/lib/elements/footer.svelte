@@ -77,7 +77,7 @@
         </div>
         <div class="flex justify-center sm:justify-end gap-7">
           <div>
-            <a href="/">
+            <a target="_blank" href="https://www.facebook.com/shebaqueue">
               <svg
                 class="w-5 h-5 text-gray-500 hover:text-primary transition-all"
                 xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@
               </svg>
             </a>
           </div>
-          <div>
+          <!-- <div>
             <a href="/">
               <svg
                 class="w-5 h-5 text-gray-500 hover:text-primary transition-all"
@@ -111,9 +111,12 @@
                 />
               </svg>
             </a>
-          </div>
+          </div> -->
           <div>
-            <a href="/">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/sheba-queue/"
+            >
               <svg
                 class="w-5 h-5 text-gray-500 hover:text-primary transition-all"
                 xmlns="http://www.w3.org/2000/svg"
