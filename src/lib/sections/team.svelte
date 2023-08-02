@@ -10,9 +10,28 @@
       the excellence of their deliverables.
     </p>
     <div class="flex flex-col sm:flex-row gap-20">
-      <Profile />
+      <Profile
+        name="Kawsar Ahmed"
+        photoUrl="https://avatars.githubusercontent.com/u/9526172?v=4"
+        title="Lead Engineer (Web)"
+        profilesUrls={[
+          { name: 'LinkedIn', url: 'https://www.linkedin.com/in/prokawsar/' },
+          { name: 'Github', url: 'https://github.com/prokawsar' },
+        ]}
+      />
 
-      <Profile />
+      <Profile
+        name="Rafsan Uddin Beg Rizan"
+        title="Lead Engineer (Mobile)"
+        photoUrl="https://avatars.githubusercontent.com/u/32144390?v=4"
+        profilesUrls={[
+          {
+            name: 'LinkedIn',
+            url: 'https://www.linkedin.com/in/rafsan-uddin-beg-rizan/',
+          },
+          { name: 'Github', url: 'https://github.com/RizanPSTU' },
+        ]}
+      />
     </div>
   </div>
 </div>
