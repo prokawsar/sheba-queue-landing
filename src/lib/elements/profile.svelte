@@ -1,9 +1,16 @@
 <script lang="ts">
+  import Fa from 'svelte-fa';
+  import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
   export let name = '',
     title = '',
     photoUrl = '#',
     profilesUrls: any = [],
     description = '';
+
+  const icons: any = {
+    Github: faGithub,
+    LinkedIn: faLinkedin,
+  };
 </script>
 
 <div
@@ -11,7 +18,7 @@
 >
   <div
     class:hidden={photoUrl == '#'}
-    class="rounded-full h-24 sm:h-48 border shadow-md border-violet-400 sm:-ml-20 bg-white"
+    class="rounded-full h-24 sm:h-44 border shadow-md border-violet-400 sm:-ml-20 bg-white"
   >
     <img class="h-full rounded-full" src={photoUrl} alt="" />
   </div>
@@ -24,9 +31,11 @@
         {description}
       </p>
     </div>
-    <div class="flex flex-row mt-10 gap-2">
+    <div class="flex flex-row items-center mt-10 gap-2">
       {#each profilesUrls as url}
-        <a class="" href={url.url} target="_blank">{url.name}</a>
+        <a class="" href={url.url} target="_blank">
+          <Fa icon={icons[url.name]} />
+        </a>
       {/each}
     </div>
   </div>
