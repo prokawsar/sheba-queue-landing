@@ -71,6 +71,7 @@
                     class="py-2 px-4 leading-6 block w-full border border-gray-300 rounded text-sm focus:border-gray-300 focus:ring-0"
                     id="firstname"
                     name="firstname"
+                    required
                     placeholder="First Name"
                   />
                 </div>
@@ -87,6 +88,7 @@
                     class="py-2 px-4 leading-6 block w-full border border-gray-300 rounded text-sm focus:border-gray-300 focus:ring-0"
                     id="lastname"
                     name="lastname"
+                    required
                     placeholder="Last Name"
                   />
                 </div>
@@ -104,6 +106,7 @@
                   name="email"
                   class="py-2 px-4 leading-6 block w-full border border-gray-300 rounded text-sm focus:border-gray-300 focus:ring-0"
                   id="email"
+                  required
                   placeholder="Your Email"
                 />
               </div>
@@ -118,6 +121,7 @@
                   id="message"
                   name="message"
                   rows="4"
+                  required
                   placeholder="Type Your Massage..."
                 />
               </div>
