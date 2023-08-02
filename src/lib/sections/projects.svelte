@@ -10,6 +10,20 @@
       Application that makes users life easy.
     </p>
 
-    <div class="flex flex-col sm:flex-row gap-2" />
+    <div class="flex flex-col py-10 sm:flex-row gap-2">
+      <div class="max-w-sm rounded-md hover:shadow-xl bg-white">
+        <a
+          class="flex flex-col gap-2"
+          href="https://analytics-dashboard-alpha.vercel.app/"
+          target="_blank"
+        >
+          <img src="/images/dashboard.png" alt="dashboard" />
+          <p class="font-bold text-lg text-center">Analytics Dashboard</p>
+          <p class="text-slate-600 text-lg text-center">
+            Svelte, SvelteKit, Tailwind, Chart.js
+          </p>
+        </a>
+      </div>
+    </div>
   </div>
 </div>
