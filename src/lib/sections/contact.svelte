@@ -57,7 +57,7 @@
             shortly
           </p>
 
-          <form>
+          <form action="?/formSubmit" method="post">
             <div class="flex gap-6">
               <div class="md:w-1/2">
                 <div class="mb-5">
@@ -70,6 +70,7 @@
                     type="text"
                     class="py-2 px-4 leading-6 block w-full border border-gray-300 rounded text-sm focus:border-gray-300 focus:ring-0"
                     id="firstname"
+                    name="firstname"
                     placeholder="First Name"
                   />
                 </div>
@@ -85,6 +86,7 @@
                     type="text"
                     class="py-2 px-4 leading-6 block w-full border border-gray-300 rounded text-sm focus:border-gray-300 focus:ring-0"
                     id="lastname"
+                    name="lastname"
                     placeholder="Last Name"
                   />
                 </div>
@@ -99,6 +101,7 @@
                 >
                 <input
                   type="email"
+                  name="email"
                   class="py-2 px-4 leading-6 block w-full border border-gray-300 rounded text-sm focus:border-gray-300 focus:ring-0"
                   id="email"
                   placeholder="Your Email"
@@ -113,6 +116,7 @@
                 <textarea
                   class="py-2 px-4 leading-6 block w-full border border-gray-300 rounded text-sm focus:border-gray-300 focus:ring-0"
                   id="message"
+                  name="message"
                   rows="4"
                   placeholder="Type Your Massage..."
                 />
