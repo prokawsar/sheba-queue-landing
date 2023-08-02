@@ -23,14 +23,16 @@
       <a class="" href="/">Home</a>
       <!-- <a href="/#about">About</a> -->
       <a href="/#our-tech">Our Technology</a>
+      <a href="/#our-work">Our Work</a>
       <a href="/#team">Team</a>
       <a href="/#contact">Contact</a>
     </div>
-    <button
+    <a
+      href="#contact"
       class="hidden sm:block rounded-3xl border-[1.5px] px-3 py-2 border-gray-300"
     >
       Contact Us
-    </button>
+    </a>
 
     {#if showMobileMenu}
       <div class="absolute left-0 w-full h-60 p-4 bg-gray-300 top-16">
@@ -38,6 +40,7 @@
           <a class="" href="/">Home</a>
           <!-- <a href="/#about">About</a> -->
           <a href="/#our-tech">Our Technology</a>
+          <a href="/#our-work">Our Work</a>
           <a href="/#team">Team</a>
           <a href="/#contact">Contact</a>
         </div>

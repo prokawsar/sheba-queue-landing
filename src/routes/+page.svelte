@@ -12,7 +12,7 @@
   <Hero />
   <!-- <About /> -->
   <Techs />
-  <!-- <Projects /> -->
+  <Projects />
   <!-- <Reveiw /> -->
   <Team />
   <Contact />

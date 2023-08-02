@@ -31,15 +31,15 @@
     </p>
     <div class="flex flex-wrap items-center gap-5">
       <a
-        href="#"
+        href="#our-work"
         class="py-3 px-6 rounded border border-black text-white bg-black hover:shadow-lg hover:shadow-black/50 focus:outline focus:outline-black/50 transition-all duration-500"
         ><i class="fa-solid fa-arrow-down me-2" /> View Our Work</a
       >
-      <a
+      <!-- <a
         href="#"
         class="py-3 px-6 rounded border border-black hover:border-black hover:bg-black hover:text-white hover:shadow-lg hover:shadow-black/50 focus:outline focus:outline-black/50 transition-all duration-500"
         >Learn More</a
-      >
+      > -->
     </div>
   </div>
 </div>
