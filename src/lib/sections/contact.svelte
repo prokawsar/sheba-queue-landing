@@ -120,12 +120,12 @@
             </div>
             <button
               type="submit"
-              class="inline-flex items-center bg-violet-500 text-white text-sm font-medium leading-6 text-center align-middle select-none py-2 px-4 rounded-md transition-all hover:shadow-lg"
+              class="inline-flex items-center bg-amber-200/50 text-amber-800 text-sm font-medium leading-6 text-center align-middle select-none py-2 px-4 rounded-md transition-all hover:shadow-lg"
             >
               Send
               <span class="w-4 h-4 ms-1">
                 <svg
-                  class="w-full h-full text-white"
+                  class="w-full h-full text-amber-800"
                   viewBox="0 0 24 24"
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -169,10 +169,10 @@
 <div class="grid md:grid-cols-3 gap-6 mb-10">
   <div class="flex">
     <span
-      class="flex items-center justify-center w-12 h-12 bg-violet-300 rounded-lg relative me-4 shrink-0"
+      class="flex items-center justify-center w-12 h-12 bg-amber-500/10 rounded-lg relative me-4 shrink-0"
     >
       <svg
-        class="w-7 h-7 text-violet-800"
+        class="w-7 h-7 text-amber-800"
         viewBox="0 0 24 24"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"

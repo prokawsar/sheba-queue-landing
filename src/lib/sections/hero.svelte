@@ -20,10 +20,10 @@
       </a>
     </div>
     <h1 class="md:text-5xl text-3xl text-gray-700 font-medium my-5">
-      We design user experiences that <span
+      We make web application that <span
         class="relative after:bg-amber-200 md:after:h-6 after:h-4 after:w-full after:inset-x-0 after:bottom-0 after:absolute after:-z-10"
         >works</span
-      >
+      > better for user.
     </h1>
     <p class="w-3/4 text-lg font-medium mt-6 mb-20 text-slate-600">
       We're a top-notch web design and development team helping business to
