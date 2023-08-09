@@ -1,5 +1,7 @@
 <script>
   import Menu from '$lib/icons/menu.svelte';
+  import { quintOut } from 'svelte/easing';
+  import { slide } from 'svelte/transition';
 
   let showMobileMenu = false;
 
@@ -35,14 +37,22 @@
     </a>
 
     {#if showMobileMenu}
-      <div class="absolute left-0 w-full h-60 p-4 bg-gray-300 top-16">
+      <div
+        transition:slide={{
+          delay: 150,
+          duration: 300,
+          easing: quintOut,
+          axis: 'y',
+        }}
+        class="absolute w-[97%] left-[6px] h-60 p-4 bg-gray-100 shadow-lg rounded-md top-16"
+      >
         <div class="flex flex-col gap-4">
-          <a class="" href="/">Home</a>
+          <a class="" href="/" on:click={openMenu}>Home</a>
           <!-- <a href="/#about">About</a> -->
-          <a href="/#our-tech">Our Technology</a>
-          <a href="/#our-work">Our Work</a>
-          <a href="/#team">Team</a>
-          <a href="/#contact">Contact</a>
+          <a href="/#our-tech" on:click={openMenu}>Our Technology</a>
+          <a href="/#our-work" on:click={openMenu}>Our Work</a>
+          <a href="/#team" on:click={openMenu}>Team</a>
+          <a href="/#contact" on:click={openMenu}>Contact</a>
         </div>
       </div>
     {/if}
