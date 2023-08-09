@@ -8,7 +8,7 @@
   import Techs from '$lib/sections/techs.svelte';
 </script>
 
-<div class="w-screen flex flex-col items-center mx-auto">
+<div class="flex flex-col items-center mx-auto">
   <Hero />
   <!-- <About /> -->
   <Techs />
