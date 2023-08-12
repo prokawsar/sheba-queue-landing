@@ -20,14 +20,16 @@
       </a>
     </div>
     <h1 class="md:text-5xl text-3xl text-gray-700 font-medium my-5">
-      We make web application that <span
+      Crafting User-Centric Web Applications <br /> for
+      <span
         class="relative after:bg-amber-200 md:after:h-6 after:h-4 after:w-full after:inset-x-0 after:bottom-0 after:absolute after:-z-10"
-        >works</span
-      > better for user.
+        >Optimal Performance</span
+      >.
     </h1>
     <p class="w-3/4 text-lg font-medium mt-6 mb-20 text-slate-600">
-      We're a top-notch web design and development team helping business to
-      craft the meaningful and interactive product experiences.
+      We are a distinguished team specializing in web design and development,
+      dedicated to aiding businesses in crafting meaningful and engaging product
+      experiences.
     </p>
     <div class="flex flex-wrap items-center gap-5">
       <a
